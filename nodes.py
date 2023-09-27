@@ -70,7 +70,7 @@ class StringLiteral:
             }
         }
 
-    RETURN_TYPES = ("STRING",)
+    RETURN_TYPES = (ANY,)
     FUNCTION = "to_string"
 
     CATEGORY = "Literals"
